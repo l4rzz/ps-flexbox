@@ -1,0 +1,36 @@
+.bar-row {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-bottom: $margin-bottom;
+	.bar-around {
+		height: $bar-height;
+		width: 40%;
+		background-color: $light-gray;
+		.bar-inner {
+			height: $bar-height;
+			width: 45%;
+			background-color: rgba(0,0,0,0.5);
+		}
+	}
+}
+
+.experience-row {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	padding-bottom: 1rem;
+	.experience-item {
+		display: flex;
+		flex-direction: column;
+		line-height: normal;
+		.experience-title {
+			font-weight: bold;
+		.experience-description {
+			font-style: italic;
+			font-weight: bold;
+			font-size: 0.75em;
+		}
+		}
+	}
+}

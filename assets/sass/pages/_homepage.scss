@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+	margin: 0;
+	font-family: 'Roboto';
+}
+
+h2, h3 {
+	display: flex;
+	justify-content: center;
+	padding: 1em;
+}
+
+.title {
+	padding: 1%;
+	background-color: #67727A;
+	text-align: center;
+}
+
+.section-sub-title {
+	padding: 1%;
+	text-align: center;
+}
