@@ -1,0 +1,26 @@
+{
+  "name": "ps-flexbox",
+  "version": "1.0.0",
+  "description": "\"# ps-flexbox\" \r \"# ps-flexbox\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larswagemans/ps-flexbox.git"
+  },
+  "author": "Lars Wagemans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larswagemans/ps-flexbox/issues"
+  },
+  "homepage": "https://github.com/larswagemans/ps-flexbox#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "load-grunt-config": "^0.19.2"
+  }
+}
