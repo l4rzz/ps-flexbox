@@ -1,22 +1,22 @@
 .top-nav {
 	display: flex;
 	justify-content: space-around;
-	background-color: $dark-grayish-blue;
+	background-color: $dark-grey;
 	list-style-type: none;
 	padding: 1%;
-}
 
-.top-nav li a {
-	text-decoration: none;
-	color: $very-light-gray;
-	font-size: 1em;
+	li a {
+		text-decoration: none;
+		color: $light-grey;
+		font-size: 1em;
+	}
 }
 
 .header-slider {
 	display: flex;
 	justify-content: space-around;
 	padding: 3%;
-	background-color: $light-grayish-blue;
+	background-color: $light-grey;
 }
 
 .slider-image {
@@ -25,21 +25,13 @@
 	width: 50%;
 }
 
-.slider-caption {
-	display: flex;
-	width: 40%;
-	text-align: center;
-	align-items: center;
-}
-
 .story-title {
 	text-align: center;
-	background-color: $ghost-white;
+	background-color: $white;
 	padding: 3%;
 }
-
-.story-description {
-	font-weight: bold;
-	text-align: center;
-	padding: 3%;
-}
+	.story-description {
+		font-weight: bold;
+		text-align: center;
+		padding: 3%;
+	}

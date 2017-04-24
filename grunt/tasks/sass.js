@@ -1,7 +1,7 @@
 module.exports = {
     dist: {
         files: {
-            'style.css' : 'style.scss'
+            'style.css' : '../../assets/sass/style.scss'
         }
     }
 };

@@ -6,7 +6,7 @@ module.exports = function(grunt) {
 		sass: {
 			dist: {
 					files: {
-							'style.css' : 'style.scss'
+							'assets/css/style.css' : 'assets/sass/style.scss'
 					}
 			}
 		},
@@ -18,9 +18,11 @@ module.exports = function(grunt) {
 		}
 	});
 
-	grunt.registerTask('dev',['sass']);
-	grunt.registerTask('default',['sass','watch']);
 
 	grunt.loadNpmTasks('grunt-sass');
 	grunt.loadNpmTasks('grunt-contrib-watch');
+
+	grunt.registerTask('dev',['sass']);
+	grunt.registerTask('default',['sass','watch']);
+
 };

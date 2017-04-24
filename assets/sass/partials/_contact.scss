@@ -1,34 +1,31 @@
 .contact {
-	background-color: $smoke-white;
+	background-color: $white;
 }
 
-.form-content {
+form {
 	display: flex;
 	justify-content: center;
-	margin-bottom: $margin-bottom;
-	width: 100%;
-	.input-fields {
+
+	.form-content {
 		display: flex;
 		flex-direction: column;
 		width: 80%;
+
 		input {
-			margin-bottom: $margin-bottom;
 			height: 1.5em;
-			background-color: $very-soft-blue;
-			border: none;
+			background-color: $soft-blue;
 		}
+
 		textarea {
-			margin-bottom: $margin-bottom;
 			height: 4rem;
-			background-color: $very-soft-blue;
-			border: none;
+			background-color: $soft-blue;
 		}
+
 		.form-button {
-			background-color: $dark-grayish-blue;
+			background-color: $dark-grey;
 			text-align: center;
 			font-size: 1.5em;
-			color: $very-light-gray;
-			border: none;
+			color: $light-grey;
 		}
 	}
 }
