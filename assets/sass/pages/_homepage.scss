@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	font-family: 'Roboto';
+}
+
+h1 {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	width: 40%;
+}
+
+h2 {
+	@extend h3;
+	background-color: $dark-grey;
+}
+
+h3 {
+	display: flex;
+	justify-content: center;
+	padding: 2%;
+	text-align: center;
+}
+
+input, textarea, .form-button {
+	border: none;
+}
+
+form, input, textarea {
+	margin-bottom: 1rem;
+}
