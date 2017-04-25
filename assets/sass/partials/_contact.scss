@@ -1,0 +1,31 @@
+.contact {
+	background-color: $white;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+
+	.form-content {
+		display: flex;
+		flex-direction: column;
+		width: 80%;
+
+		input {
+			height: 1.5em;
+			background-color: $soft-blue;
+		}
+
+		textarea {
+			height: 4rem;
+			background-color: $soft-blue;
+		}
+
+		.form-button {
+			background-color: $dark-grey;
+			text-align: center;
+			font-size: 1.5em;
+			color: $light-grey;
+		}
+	}
+}

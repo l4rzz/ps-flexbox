@@ -1,0 +1,17 @@
+footer {
+	background-color: $dark-grey;
+}
+
+.footer-icons {
+	display: flex;
+	justify-content: space-between;
+	padding: 1% 5%;
+	width: 10%;
+
+}
+
+.fa-facebook, .fa-twitter, .fa-instagram {
+	font-size: 2em;
+	color: $white;
+	text-decoration: none;
+}
